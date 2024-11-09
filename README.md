@@ -2,11 +2,17 @@
 Let's see a brief description of C# access modifiers.
 
 The access modifiers are defined as a limitation on accessibility of a type or type’s members.
+
 •	public: This kind of modifier lets the pointed type to be fully accessible.
+
 •	internal: It’s only accessible inside the assembly or friend assemblies. That’s the default modifier for non-nested types.
+
 •	private: Only accessible within the containing type. It’s the default accessibility for the members of a class or struct.
+
 •	protected: Accessible only within the containing type or subclasses.
+
 •	protected internal: The union of the “protected” and “internal” conditions. So, this would be accessible inside the assembly and subclasses of the containing assembly.
+
 •	private protected: Accessible only within the containing type or subclasses of the same assembly.
 
 Let's check by an example : 
